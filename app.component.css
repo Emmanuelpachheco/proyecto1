@@ -1,0 +1,185 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav {
+    background-color:#e4c1f9; /* Color de fondo del menú */
+    padding: 100; /* Acolchado interno del menú */
+    text-align: right; 
+    height: none;
+    
+    
+  } 
+
+  
+  /* Estilos para el enlace seleccionado */
+  a:hover,
+  a.active {
+    /* background-color: hsl(230, 74%, 53%); /* Color de fondo al pasar el cursor o al seleccionar */
+    
+  color: #000; /* Color del texto al pasar el cursor o al seleccionar */
+    font-weight: bold; /* Peso de la fuente en negrita al seleccionar */
+  }
+      /*
+    .section {
+      margin-top: 400px;  Añade espacio superior a la sección 
+    }
+    */
+    /*.element {
+      padding: 500px;  Añade espacio alrededor del elemento 
+    }
+*/
+ .navbar {
+  padding: 1rem;
+  background-color:#e4c1f9
+ }
+
+ .navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+
+ }
+
+ /* Estilos general es*/
+
+ section {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+ }
+/* aplicación de google fonts*/
+ h1
+ {
+  font-size:2.0rem;
+  font-family: 'Rubik Dirt', cursive;
+
+  }
+    
+  .seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+  }
+
+  .seccion-clara
+
+
+  .seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+  }
+
+  .seccio
+
+
+  /*Seccion hero
+  .hero {
+    background-color:#f5f6f7;
+    min-height: 450px;
+    text-align: center;
+  
+   }
+*/
+
+/*
+  .hero-principal {
+    padding: 3rem;
+  }
+
+  */
+
+  
+
+  .hero-portada {
+    width: 200px;
+    height: 200px;
+    margin:20px;
+  }
+
+  
+
+  .hero-principal h2{
+    font-size: 1.5rem;
+    color:#615151;
+  
+  }
+/* acerca de nosotros*/
+.sobre-mi {
+  height: 500px;
+  padding: 10 px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.experiencia {
+  padding: 40px;
+
+}  
+
+.experiencia .columna {
+   padding: 20px;
+   border: 2px solid #8080804d;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+  color: yellow;
+  background-color: #1b1b32;
+
+}
+
+.experiencia .row div {
+  height: 250px;
+  background-color: pink;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.experiencia-titulo{
+font-size: 25px;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: rgb(232, 45, 45);
+  background-color: #d3ee4b;
+  padding:8 px 19px;
+  border-radius: 50%;
+}
+
+.bagdes-contenedor {
+  font-size: 50 ;
+  font-weight: 20;
+
+
+}
+
+
+
+
+/*adaptable responsivo*/
+ @media screen and (max-width: 767px) {
+ .navbar-brand {
+  display: none;
+  }
+ }
+
+
+@media screen and (min-width:700px){
+ .hero-inferior-imagen {
+    max-width: 200px;
+  }
+}
